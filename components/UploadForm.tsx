@@ -57,8 +57,7 @@ const UploadForm = () => {
       title: '',
       author: '',
       voice: '',
-      pdfFile: undefined,
-      coverImage: undefined,
+     
     },
     mode: 'onBlur',
   })
