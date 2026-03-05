@@ -11,6 +11,7 @@ import {
   SignedOut,
   UserButton,
 } from "@clerk/nextjs";
+import { Toaster } from "sonner";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -55,6 +56,7 @@ export default function RootLayout({
         >
           <Navbar />
           {children}
+          <Toaster />
         </body>
       </html>
     </ClerkProvider>
